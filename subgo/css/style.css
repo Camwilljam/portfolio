@@ -1,0 +1,468 @@
+body{
+	
+	margin:0 auto;
+	background-color:white;
+}
+
+header{
+	width:100%;
+	height:10%;
+	
+	clear:both;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  padding-left:50%;
+  height:100%;
+}
+
+li {
+	padding-top:25px;
+  margin-left:50px;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:black;
+}
+
+
+.logo
+{
+	
+	float:left;
+	position:absolute;
+	top:-15px;
+	padding:15px;
+}
+.callbk
+{
+	float:left;
+	background-color: transparent;
+	border: 2px solid deeppink;
+	color:deeppink;
+	margin-top:-55px;
+	margin-left:250px;
+	height:40px;
+	width:150px;
+	border-radius:5px;
+}
+
+.contactnum
+{
+	position:absolute;
+	float:left;
+	margin-left:200px;
+	font-size:14px;
+	padding-top:10px;
+}
+
+
+
+
+
+.content-1
+{
+	width:100%;
+	height:auto;
+	clear:both;
+}
+
+.content-2
+{
+	width:100%;
+	height:900px;
+	clear:both;
+	background-color:lightgrey;
+	padding:3em;
+	z-index:-1;
+	margin-bottom:10px;
+	font-family: 'Capriola';
+	font-size:1.7em;
+	text-align:center;
+}
+.content-3
+{
+	width:100%;
+	height:auto;
+	clear:both;
+	margin-bottom:1em;
+	background-color:lightgrey;
+}
+.content-4
+{
+	width:100%;
+	height:auto;
+	clear:both;
+	margin-bottom:1em;
+	background-color:lightgrey;
+}
+.slider{
+	width:100%;	
+	clear:both;
+	background-image:url("images/worker1.png");
+	display:block;
+}
+
+
+.popup{
+	
+	width:500px;
+	height:800px;
+	color:white;
+	z-index:1;
+	position:absolute;
+	float:left;
+	top:300;
+	margin-left:100px;
+	background: rgb(0, 35, 102, 0.7);
+	text-align:center;
+	padding:2em;
+	
+}
+
+.ptext{
+	
+	font-family: 'Capriola';
+	font-size:5em;
+}
+.smallpop{
+	padding:1em;
+	font-size:2em;
+	text-align:left;
+}
+
+.hwork
+{
+	
+	background-color:deeppink;
+	border:deeppink;
+	height:50px;
+	width:200px;
+	border-radius:5px;
+	font-size: 1.5em;
+	font-family: 'Capriola';
+}
+
+.benefit-button-left
+{
+	margin-top:1%;
+	float:left;
+	width:50%;
+	background-color:aquamarine;
+	height:10%;
+	text-align:center;
+	font-size:2em;
+	padding:1em;
+	margin-bottom:1em;
+	color:white;
+}
+.benefit-button-right
+{
+	margin-top:1%;
+	float:left;
+	width:50%;
+	background-color:darkblue;
+	height:10%;
+	text-align:center;
+	font-size:2em;
+	padding:1em;
+	margin-bottom:1em;
+	color:white;
+}
+
+.section-2
+{
+	width:100%;
+	height:auto;
+	clear:both;
+	font-family: 'Capriola';
+	font-size:2em;
+	margin-bottom:5%;
+}
+
+.imgsec2{
+	position:aboslute;
+	float:right;
+	margin-right:300px;
+	margin-top:50px;
+}
+
+.left-sec2
+{
+	height:80%;
+	width:35%;
+	margin-top:1em;
+	font-family: 'Capriola';
+	font-size:1em;
+	background-color:white;
+	padding:10px;
+	overflow:
+}
+.largetext{
+	font-size:52px;
+	text-align:left;
+}
+.smalltext{
+	font-size:28px;
+	text-align:left;
+	padding:20px;
+}
+.sec2-next{
+	background-color:deeppink;
+	border:deeppink;
+	height:60px;
+	width:250px;
+	border-radius:5px;
+	font-size: 35px;
+	font-family: 'Capriola';
+	margin-top:80px;
+}
+
+.subcat{
+	width:100%;
+	height:50px;
+	clear:both;
+	
+	font-size:22px;
+	text-align:center;
+	
+}
+.line{
+	width:420px;
+	height:40px;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:40px;
+	border-bottom:10px solid white;
+}
+
+.active
+{	width:420px;
+	height:40px;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:40px;
+	border-bottom:10px solid;
+	border-color:aquamarine;
+}
+
+.section-3{
+	height:600px;
+	width:100%;
+	clear:both;
+	background-color:#3C4693;
+	padding:5px;
+}
+.sec3-text, .sec3-small, .sec3-smallbox{
+	text-align:center;
+	color:white;	
+}
+.sec3-text{
+	font-size:38px;
+	font-family: 'Capriola';
+}
+.sec3-small{
+	font-size:24px;
+}
+
+.sec3-smallbox{
+	font-size:22px;
+	border-top:3px solid aquamarine;
+}
+
+.third{
+	float:left;
+	width:33%;
+	height:400px;
+	background-color:#394495;
+	margin:3px;
+	box-shadow:10px 10px;
+	padding:100px;
+}
+.third:hover{
+	
+	background-color:royalblue;
+}
+
+.sec4-num{
+	width:50%;
+	height:400px;
+	float:left;
+	background-color:lightgrey;
+	border-bottom:3px solid grey;
+}
+
+.large-num{
+	font-size:100px;
+	color:#394495;
+	padding:50px;
+	font-family:'Capriola';
+}
+.unline{
+	border-bottom:5px solid deeppink;
+	width:auto;
+	height:20px;
+}
+.numhead
+{
+	font-size:50px;
+	color:white;
+	margin-top:-150px;
+	margin-left:200px;
+}
+.numlow
+{
+	font-size:25px;
+	color:white;
+	margin-top:-150px;
+	margin-left:200px;
+	text-align:left;
+}
+.largeplus
+{
+	font-size:100px;
+	color:deeppink;
+	margin-left:200px;
+	margin-top:40px;
+}
+
+ #triangle-right-aqua {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 150px solid aquamarine;
+    border-bottom: 100px solid transparent;
+	z-index:-1;
+	margin-left:100px;
+	margin-top:-20px;
+ }	
+
+#triangle-right-grey{
+	width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-left: 105px solid lightgrey;
+    border-bottom: 80px solid transparent;
+	z-index:-1;
+	margin-left:70px;
+	margin-top:-180px;
+}
+
+.apply{
+	
+	clear:both;
+	background-color: deeppink;
+	border: 2px solid deeppink;
+	color:white;
+	margin-left:40%;
+	height:40px;
+	width:10%;
+	border-radius:5px;
+	margin-bottom:1em;
+	margin-top:1em;
+	font-size:22px;
+}
+
+.half{
+	width:45%;
+	height:800px;
+	float:left;
+	margin-left:2.5%;	
+	margin-right:2.5%;	
+	margin-bottom:1em;
+	
+}
+
+.img-half{
+	margin-left:120px;
+	margin-top:100px;
+}
+
+.img-text{
+	font-size:25px;
+	text-align:center;
+	color:black;
+	padding:10px;
+	
+}
+.img-button{
+	
+	background-color:deeppink;
+	border:deeppink;
+	height:50px;
+	width:200px;
+	border-radius:5px;
+	font-size: 1.5em;
+	font-family: 'Capriola';
+	margin-left:330px;
+}
+
+.sec-form{
+	
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+
+.sec-form input[type=text], .sec-form input[type=email], .sec-form select{
+	width:500px;
+	height:50px;
+	border:3px solid deeppink;
+	font-size:28px;
+	padding-left:5px;
+}
+
+.sec-form textarea
+{
+	width:500px;
+	height:500px;
+	border:3px solid deeppink;
+	font-size:28px;
+	padding-left:5px;
+}
+.sec-form [type=button]
+{
+	width:250px;
+	height:30px;
+	border:3px solid deeppink;
+	background-color:deeppink;
+	color:white;
+}
+
+footer
+{
+		width:100%;
+		height:400px;
+		clear:both;
+		background-color:#394495;
+}
+.footlogo
+{
+	float:left;
+	padding:25px;
+	margin-left:50px;
+	font-size:82px;
+}
+
+.cont-info{
+	
+	width:25%;
+	float:left;
+	height:auto;
+	font-size:24px;
+	color:white;
+	padding:70px;
+	margin-bottom:0px;
+}

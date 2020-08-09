@@ -1,0 +1,246 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  cursor: default;
+}
+
+
+body{
+background-color: #ebebeb
+}
+
+header{
+  margin:1em;
+  height:10%;
+  clear:both;
+}
+.logo{
+  float:left;
+  cursor: pointer;
+}
+
+.mainlogo{
+  float:left;
+  cursor: pointer;
+}
+.logotxt{
+
+  font-size:1em;
+  margin-top:40px;
+  float:left;
+  color:#555555;
+}
+.navtxt{
+color:#f05322;
+width:auto;
+float:right;
+margin-top: 40px;
+padding:10px;
+margin-left:5px;
+cursor:pointer;
+}
+
+p.navtxt:hover{
+  color:black;
+}
+.navbtn{
+  width:auto;
+float:right;
+border: 2px solid black;
+border-radius: 15px;
+margin-top: 40px;
+padding:10px;
+margin-left:5px;
+cursor: pointer;
+}
+.navham{
+color:#f05322;
+width:auto;
+float:right;
+margin-top: 15px;
+padding:10px;
+margin-left:5px;
+cursor:pointer;
+}
+.navhamtxt{
+  text-align: justify;
+  padding:0px;
+  margin-left:20px;
+  margin-top:-15px;
+  font-size:1em;
+  cursor: pointer;
+}
+
+.imagebk{
+  top:-120;
+  position:absolute;
+  z-index:-1;
+}
+.imagecontbk{
+  top:1600;
+  margin-right: 10px;
+  position:absolute;
+  z-index:1;
+  right:0;
+}
+
+#content1{
+  height:800px;
+  width:100%;
+ clear: both;
+}
+#content2{
+  height:1000px;
+  width:100%;
+ clear: both;
+  background-color: white;
+  padding-top:110px;
+}
+
+.maintxt{
+  float:left;
+  width: 50%;
+  padding:50px;
+  padding-top:250px;
+  color:#555555;
+  text-align:center;
+  font-size:1em;
+}
+.mainimg{
+  position:absolute;
+  height: 660px;
+  width: 990px;
+  right:110;
+  top:200;
+  border-radius:15px;
+}
+
+
+.mainbtn{
+display:inline-block;
+left:50%;
+width:auto;
+float:left;
+border: 2px solid black;
+border-radius: 15px;
+margin-top: 40px;
+padding:10px;
+margin-left:30;
+cursor: pointer;
+}
+
+.btnhold{
+  margin-left:250px;
+  background-color: red;
+  height: auto;
+  width: auto;
+}
+.infobox{
+  clear:both;
+  width:35%;
+  height:300px;
+  margin:90px;
+  text-align: left;
+  padding: 10px;
+  padding-left:30px;
+  font-size: 1.2em;
+  color:#555555;
+  border-radius: 10px;
+}
+
+.contbtn{
+width:auto;
+float:left;
+border: 2px solid white;
+background-color: white;
+color:#555555;
+border-radius: 15px;
+margin-top: 0px;
+padding:10px;
+margin-left:5px;
+cursor: pointer;
+}
+
+.musicbox{
+  position: absolute;
+  right:50;
+  top:1200;
+width:50%;
+height: 500px;
+float:right;
+background-color: #f2f1f1;
+box-shadow: 2px;
+z-index:2;
+box-shadow: -10px 10px 8px 2px  #555555 ;
+border-radius:10px;
+text-align:center;
+color:#555555;
+}
+
+.innerbox{
+  width:50%
+  padding:25%;
+  height:auto;
+}
+
+@media screen and (max-width: 900px) {
+
+*{
+
+  margin-right:0;
+  padding-right: 0;
+}
+.mainlogo{
+  margin-top:20px;
+  width:10%;
+}
+.imagebk, .imagecontbk, .logo{
+display: none;
+}
+.maintxt, .infobox{
+  width:100%;
+  clear:both;
+}
+
+.btnhold{
+  width:80%;
+  margin-left:25%;
+}
+.infobox{
+  margin-left:0;
+}
+.maintxt{
+padding-top:0px;
+
+}
+.mainimg{
+  clear:both;
+  position: absolute;
+  left:2.5% ;
+  top:450;
+  width:95%;
+  height: 50%;
+}
+.logotxt{
+  font-size:15px;
+}
+.navtxt, .navbtn{
+  display: none;
+}
+
+.musicbox{
+width:80%;
+height:auto;
+clear:both;
+position: relative;
+top:auto;
+margin-bottom:20px;
+
+}
+.musicplay{
+  width:90%;
+}
+#content2{
+  height:auto;
+}
+}
