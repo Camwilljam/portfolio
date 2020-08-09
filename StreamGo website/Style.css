@@ -1,0 +1,416 @@
+*{
+  font-family: Tahoma, Geneva, sans-serif;
+}
+body{
+  margin:0 auto;
+  display:flex;
+  flex-flow: column nowrap;
+}
+
+p{
+  font-size: 1.25vw;
+}
+button{
+  cursor:pointer;
+}
+/*section for the header and the contents*/
+header{
+  height:auto;
+  margin-left:0;
+  width:100%;
+  padding:0px;
+
+}
+.logo{
+  width:300px;
+  height:100px;
+  margin-left: 5px;
+  display:flex;
+  justify-content: space-between;
+}
+nav{
+  width:100%;
+  height:60px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.btn-container{
+  width:700px;
+  height:120px;
+  position:absolute;
+  right:0;
+  top: 0;
+
+}
+
+.btn-account{
+  width:200px;
+  height:50px;
+  margin:3vh;
+  float:right;
+  font-size:20px;
+  color:white;
+  border:none;
+  text-transform: uppercase;
+
+}
+
+#log{
+  background-color: #575756;
+}
+
+#reg{
+
+  background-color: #00497e;
+}
+#log:hover, #reg:hover{
+  background-color:  #f28c00;
+}
+/*section for navigaton*/
+
+a{
+  text-decoration: none;
+  color:white;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.nav-box{
+  width:200px;
+  height:80px;
+  background-color:#509bd3;
+  float:left;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+
+.nav-box:last-child{
+  text-align: left;
+  width:893px;
+  padding-left: 10px;
+  background-color: #797978;
+  text-transform: capitalize;
+  float:left;
+}
+
+.nav-box:hover, #darkblue:hover, .nav-box:last-child:hover{
+  background-color:  #f28c00;
+}
+
+ #active:hover{
+     background-color:#1a5b8b;
+ }
+#active{
+  background-color: #f28c00;
+}
+
+#darkblue{
+  background-color: #1a5b8b;
+
+}
+/* Style for texts */
+
+.page-title{
+  color:#509bd3;
+  font-size:4vw;
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin-left:1vh;
+  margin-top: 0;
+}
+.num{
+  color:#1a5b8b;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.speaker-name{
+color:#509bd3;
+font-size: 25px;
+ text-transform: capitalize;
+ font-weight: bold;
+ font-family: Tahoma, Geneva, sans-serif;
+ padding:5px;
+}
+
+.speaker-blurb{
+color:#797978;
+font-size: 19px;
+font-family: Tahoma, Geneva, sans-serif;
+padding:5px;
+
+}
+
+
+/* Content for the main page*/
+
+.content{
+  display:flex;
+  flex-wrap: wrap;
+  clear:both;
+  margin-top: 2vh;
+  background-color: blue;
+  background: url("Images/backgroundimg.png");
+  background-size:100%,100%;
+  position: relative;
+
+}
+.transparent-layer{
+  position: absolute;
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,.9) 0%,rgba(255,255,255,.7) 100%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1895px;
+  z-index:1;
+  display: flex;
+}
+
+/* style for the speaker boxes */
+.speaker-container{
+  width:100%;
+  height:auto;
+  clear: both;
+  margin:5vh;
+  margin-bottom: 0;
+-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  z-index: 2;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.speaker-box{
+  width:375px;
+  height:750px;
+  float: left;
+  margin:5vh;
+  margin-left:2vh;
+  background-color: white;
+}
+
+.speaker-img{
+  width:100%;
+  height:350px;
+  transition: top ease 0.5s;
+}
+
+.speaker-info{
+  width:100%;
+  height:200px;
+  background-color: white;
+}
+.content-box{
+  width:978px;
+  height:150px;
+  margin-left:-5vh;
+  padding-left:945px;
+  clear: both;
+  background-color: rgba(255, 255, 255, 0);
+  z-index:1;
+  justify-content: space-between;
+
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.arrow {
+  border: solid #509bd3 ;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 20px;
+}
+.register-btn{
+  background-color: #f28c00;
+  color: white;
+  width:180px;
+  height:50px;
+  margin-left:-70px;
+  border:none;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.register-btn:hover{
+  background-color:#509bd3 ;
+}
+
+/*Style for the testimonials*/
+.testimonials-text{
+  font-size:35px;
+  color:white;
+}
+
+.author {
+  color: white;
+  font-weight: bold;
+  font-size:20px;
+}
+
+/*Slideshow of testimonials*/
+.slideshow-container {
+  position: relative;
+  background-image: linear-gradient(to right,#1a5b8b,#509bd3);
+  width:100%;
+  height:200px;
+}
+
+.mySlides{
+  display:none;
+  text-align: center;
+  padding: 20px;
+}
+.mySlides:first-child{
+  display: block;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #f28c00;
+  color: white;
+}
+
+footer{
+  width:100%;
+  height:auto;
+  background-color: #383838;
+  padding-left:80px;
+  padding-top:80px;
+  float:left;
+}
+.container{
+  margin:1vh;
+  float:left;
+}
+.mini-footer{
+  width:100%;
+  height:50px;
+  background-color: black;
+}
+
+.footer-header{
+  font-size: 1.5vw;
+  color:white;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+.footer-content{
+  border-top:3px solid #6f6f6e;
+  width:500px;
+  float:left;
+  color:white;
+}
+
+
+#arrow {
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    width:10px;
+    height:10px;
+    transform: rotate(-45deg);
+    margin-top:40px;
+}
+#gmap{
+  color:#f28c10;
+  cursor:pointer;
+}
+
+ul li {
+  position: relative;
+	padding-bottom: 10px;
+}
+li{
+  cursor:pointer;
+  font-size: 1vh;
+}
+li:hover{
+  color:#f28c10;
+}
+ul {
+  list-style: none;
+}
+
+ul li:before{
+   content: '';
+   position: absolute;
+   border-right:2px solid #9e9e9e;
+   border-bottom:2px solid #9e9e9e;
+   width:10px;
+   height:10px;
+   top: calc(50% - 4px);
+   left: -20px;
+   transform: translateY(-50%) rotate(-45deg);
+}
+.mini-text{
+  font-size:1vh;
+  color:#9e9e9e;
+  padding-left:25em;
+}
+
+/*RESPONSIVE CODE*/
+
+@media only screen and (max-width: 900px) {
+
+.logo{
+  display:none;
+}
+.btn-account{
+  width:100px;
+  margin-top:1vh;
+  height:50px;
+  font-size: 12px;
+}
+.btn-account i{
+  display:none;
+}
+
+.transparent-layer{
+  dispaly:none;
+}
+.content{
+  background-image:none;
+  background-color:white;
+}
+.speaker-box{
+  border: 2px solid black;
+  margin-left:5px;
+}
+
+.content-box{
+  display:none;
+}
+}
+
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}

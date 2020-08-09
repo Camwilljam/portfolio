@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" type = "text/css" href = "Style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DeskFlix | Speakers </title>
+  </head>
+  <body>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+            function plusSlides(n)
+            {
+            showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n)
+            {
+            showSlides(slideIndex = n);
+            }
+
+          function showSlides(n)
+            {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++)
+              {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+          }
+
+
+
+    </script>
+
+  <header>
+        <div class="logo">
+          <img src="Images/DeskFlix_logo.png" alt="DeskFlix" width="100%" height="100%">
+
+        </div>
+
+          <div class="btn-container">
+
+              <button type="button" class="btn-account" id="log"><i class="fas fa-sign-in-alt"></i> LOGIN</button>
+              <button type="button" class="btn-account" id="reg"> <i class="fas fa-user-plus"></i> REGISTER</button>
+
+
+          </div>
+          <h1 class="page-title"> This Conference <span class="num"> 2020</span> </h1>
+
+          <nav>
+
+
+                 <div class="nav-box"> <a href="#"> <p> Home </p> </a>    </div>
+                 <div class="nav-box" id="active"> <a href="#"> <p> Speakers </p> </a>  </div>
+                 <div class="nav-box"> <a href="#"> <p> Agenda </p> </a>  </div>
+                 <div class="nav-box"id="darkblue"> <a href="#"> <p> Why Attend </p> </a> </div>
+                 <div class="nav-box"> <a href="#"> <p> Contact Us </p> </a>  </div>
+                <div class="nav-box"> <a href="#"> <p> Entrance <i class="far fa-arrow-alt-circle-up"></i> </p> </a>  </div>
+
+          </nav>
+  </header>
+<div class = content>
+  <div class="transparent-layer"></div>
+        <div class="speaker-container">
+
+
+                  <div class="speaker-box come-in">
+
+                        <div class="speaker-img"> <img src="Images/speaker-1.png" alt="speaker 1" width="100%" height="100%"> </div>
+
+                        <div class="speaker-info">
+
+                          <p class="speaker-name"> First Name, Last</p>
+
+                          <p class="speaker-blurb">Job Title, Department <br> Name, Company Name</p>
+
+                        </div>
+                 </div>
+                              <div class="speaker-box come-in">
+
+                                    <div class="speaker-img"> <img src="Images/speaker-2.png" alt="speaker 2" width="100%" height="100%"> </div>
+
+                                    <div class="speaker-info">
+
+                                      <p class="speaker-name"> First Name, Last</p>
+
+                                      <p class="speaker-blurb">Job Title, Department <br> Name, Company Name</p>
+
+                                    </div>
+                                </div>
+
+                                      <div class="speaker-box come-in">
+
+                                            <div class="speaker-img"> <img src="Images/speaker-3.png" alt="speaker 3" width="100%" height="100%"> </div>
+
+                                            <div class="speaker-info">
+
+                                              <p class="speaker-name"> First Name, Last</p>
+
+                                              <p class="speaker-blurb">Job Title, Department <br> Name, Company Name</p>
+
+                                            </div>
+                                        </div>
+
+                                                <div class="speaker-box come-in">
+
+                                                      <div class="speaker-img"> <img src="Images/speaker-4.png" alt="speaker 4" width="100%" height="100%"></div>
+
+                                                      <div class="speaker-info">
+
+                                                        <p class="speaker-name"> First Name, Last</p>
+
+                                                        <p class="speaker-blurb">Job Title, Department <br> Name, Company Name</p>
+
+                                                      </div>
+                                                  </div>
+
+                                          <div class="speaker-box come-in">
+
+                                                <div class="speaker-img"> <img src="Images/speaker-5.png" alt="speaker 5" width="100%" height="100%"></div>
+
+                                                <div class="speaker-info">
+
+                                                  <p class="speaker-name"> First Name, Last</p>
+
+                                                  <p class="speaker-blurb">Job Title, Department <br> Name, Company Name</p>
+
+                                                </div>
+                                            </div>
+
+                                    <div class="speaker-box come-in">
+
+                                          <div class="speaker-img"> <img src="Images/speaker-6.png" alt="speaker 6" width="100%" height="100%"></div>
+
+                                          <div class="speaker-info">
+
+                                            <p class="speaker-name"> First Name, Last</p>
+
+                                            <p class="speaker-blurb">Job Title, Department <br> Name, Company Name</p>
+
+                                          </div>
+                                      </div>
+
+                              <div class="speaker-box come-in">
+
+                                    <div class="speaker-img"> <img src="Images/speaker-7.png" alt="speaker 7" width="100%" height="100%"> </div>
+
+                                    <div class="speaker-info">
+
+                                      <p class="speaker-name"> First Name, Last</p>
+
+                                      <p class="speaker-blurb">Job Title, Department <br> Name, Company Name</p>
+
+                                    </div>
+                                </div>
+
+                          <div class="speaker-box come-in">
+
+                                <div class="speaker-img"> <img src="Images/speaker-8.png" alt="speaker 8" width="100%" height="100%"> </div>
+
+                                <div class="speaker-info">
+
+                                  <p class="speaker-name"> First Name, Last</p>
+
+                                  <p class="speaker-blurb">Job Title, Department <br> Name, Company Name</p>
+
+                                </div>
+                            </div>
+
+
+        </div>
+        <div class="content-box">
+          <i class="arrow down"></i> <br><br>
+          <button type="button" class="register-btn">Register Now</button>
+        </div>
+
+
+
+              <div class = "slideshow-container">
+
+                      <div class="mySlides">
+                        <p class="testimonials-text">A great way to keep in touch with new thoughts and ideas</p>
+                        <p class = "author"> Steve Morgan, Principality Building Society </p>
+                      </div>
+
+
+                      <div class="mySlides">
+                        <p class="testimonials-text">I love how easy and simple it is to use</p>
+                        <p class = "author"> Jeff Regan, Managing Director of Trusted Business </p>
+                      </div>
+
+                      <div class="mySlides">
+                        <p class="testimonials-text">Now all of the company can colaborate at once</p>
+                        <p class = "author">Harold Burgh, CEO of Rich Business </p>
+                      </div>
+
+                <a class="prev" onClick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+</div>
+<footer>
+<div class="container">
+    <h1 class="footer-header"> other incisive media sites</h1>
+    <div class="footer-content">
+
+        <ul>
+          <li>Corporate</li>
+          <li>Marketing Services</li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="container">
+    <h1 class="footer-header"> legal</h1>
+    <div class="footer-content">
+
+      <ul>
+        <li>Terms & Conditions</li>
+        <li>Terms & Conditions of use</li>
+        <li>Privacy Policy</li>
+        <li>Cookies Policy</li>
+        <li>Accessibility</li>
+      </ul>
+
+    </div>
+</div>
+
+<div class="container">
+    <h1 class="footer-header" id="social"> Join Our Community</h1>
+    <div class="footer-content">
+
+
+
+      <h1 class="footer-header" id="social"> Find Us</h1>
+      <div class="footer-content">
+
+        <ul>
+          <li>incisive media</li>
+          <li>New House London</li>
+          <li>172 Drury Lane</li>
+          <li>London WC2B 5QR</li>
+          <br>
+          <li id="gmap"><a href="#" id="gmap"> Google Map</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+</div>
+
+
+</footer>
+<div class="mini-footer">
+  <p class="mini-text"> &copy incisive business media Ltd 2018. Company registration number 09178013 </p>
+</div>
+</div>
+
+
+  </body>
+</html>
