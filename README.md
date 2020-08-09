@@ -9,8 +9,8 @@ The client & mock section:
   -Subgo (Mock)
   -StreamGo (Mock)
   -Background Sounds(Mock)
-
 The assignment websites that has been created over the course of my BSc (Hons) Software Engineering course:
   -Newcastle Nights
   -Games Portal
-  -
+  -Freddies Medical
+  -REST API
