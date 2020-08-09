@@ -1,0 +1,243 @@
+body
+	{
+		background-image:url("http://ak8.picdn.net/shutterstock/videos/12587588/thumb/1.jpg");
+		margin:auto	;
+		
+		
+	}
+
+
+ul															/**this controlles the individual words of the nav bar**/
+	{
+		list-style-type:none;
+		margin:0;
+		padding:10px;
+		overflow:hidden;	
+		text-align:left;
+		width:100%;
+		font-size:20px;
+		
+	
+		
+	}
+	
+li															/**this controlles the entire nav bar**/
+	{
+		float:left;
+		margin:auto;
+		padding-left:25px;
+		
+	}
+li a														/** this controlls the links of the nav bar **/
+	{
+		display:block;
+		color:white;
+		text-decoration:none;
+		
+	}
+
+li a:hover													/**this controlls the nav bar links when they are hovered on **/
+	{
+		color: green;
+		
+	}
+	
+h1 //* this is the font for the log in screen text *//
+{
+	font-size:50px;
+	color: white;
+	font-family: 'Merienda', cursive;
+}
+
+h2
+{
+	font-size:50px;
+	color: green;
+	font-family: 'Merienda', cursive;
+}
+
+.active /* this changes the colour of the text when you are on that page*/
+{
+	color:red;
+}
+
+/* code for the log on page/index page. this is the first page that is seen and will allow the user to enter the rest of the site */
+
+.loginbox
+{
+	width:700px;
+	height:600px;
+	border: black 3px solid;
+	background: #00cc00;
+	clear:both;
+	box-sizing:border-box;
+	position:fixed;
+	text-align:center;
+	border-radius:20px;
+	
+	/*	this controls the position of the log in box to make it at the center of the screen */
+	top:50%;
+	left:50%;	
+	transform: translate(-50%, -50%);
+}
+
+
+
+	
+.loginform input[type=text]		/* box for the log in username field*/
+{
+	border-bottom: 6px solid black;
+	border-left:transparent;
+	border-top:transparent;
+	border-right:transparent;
+	background:transparent;
+	height:50px;
+	width:50%;
+	font-size:25px;
+	box-sizing:border-box;
+	margin-bottom:100px;
+}
+
+.loginform input[type=password]		/* box for the log in password field*/
+{
+	border-bottom: 6px solid black;
+	border-left:transparent;
+	border-top:transparent;
+	border-right:transparent;
+	background:transparent;
+	height:50px;
+	width:50%;
+	font-size:25px;
+	box-sizing:border-box;
+	margin-bottom:75px;
+}
+
+.loginform label	/* label for the log in page form boxes*/
+{
+	font-size:25px;
+	display:block;
+	text-align:center;
+	
+}
+
+.loginform input[type=submit]	/* this is the login button for the log in page form boxes*/
+{
+	height:60px;
+	width:60%;
+	background-color:transparent;
+	border: 2px solid black;
+	font-size:20px;
+	border-radius:40px;
+}
+
+.loginform input[type=text]:focus,
+.loginform input[type=password]:focus,
+.loginform input [type=submit]:focus,
+.add_patient input [type=text] :focus, 
+.add_patient input [type=date] :focus,
+.add_patient input [type=submit] :focus
+{
+    
+    outline: none; /* Remove Chrome's stupid outlines */
+}
+
+.header		/*this is the header for each page with the title and image*/
+{
+	width:99.5%;
+	height:30%;
+	border: 3px solid black;
+	box-sizing:border-box;
+	margin-top:-8px;
+	background-image:url("https://galinabella.files.wordpress.com/2013/05/filepicker_nwxcvhmfqksovuayhbod_pills-3734b1.jpg");
+	background-size:100%;
+	clear:both;
+	margin-bottom:50px;
+	
+	
+
+}
+
+.nav	/* navigation bar*/
+{
+	height:30%;
+	width:99.95%;
+	background-color:black;
+	box-sizing:border-box;
+	margin-top:60px;
+	border-bottom:3px solid red;
+}
+
+.patrecord /*this is the display boxes for the records to display*/
+{
+	height:380px;
+	width:49.48%;
+	float:left;
+	padding-top:-10px;
+	border:2px black solid;
+	
+	
+}
+
+.namebox	/* this is the boxes that the input boxes go into on the add patient page*/
+{
+width:100%;
+height:150px;
+padding:left;
+
+	
+}
+
+.add_patient input[type=text] /*this is the input box for add patient*/
+{	
+	background-color:white;
+	border-bottom: 6px solid black;
+	height:60px;
+	width:400px;
+	padding:10px;
+	font-size:25px;
+	box-sizing:border-box;
+	float:left;
+	margin-left:20px;
+}
+
+.add_patient input[type=date]	/*this is the date box for add patient*/
+{	
+	background-color:white;
+	border-bottom: 6px solid black;
+	height:60px;
+	width:400px;
+	padding:10px;
+	font-size:25px;
+	box-sizing:border-box;
+	margin-left:20px;
+}
+
+.add_patient label /*this is the label for add patient*/
+{
+	font-size:30px;
+	display:block;
+
+	
+}
+
+
+.add_patient input[type=submit] /*this is the submit button for add patient*/
+{
+	height:40px;
+	width:70px;
+	border-radius:5px;
+	text-align:center;
+	border:2px solid black;
+	background-color:white;
+	margin-bottom:50px;
+}
+
+.order input[type=submit] /*this is the order box for add patient*/
+{
+	height:40px;
+	width:70px;
+	border-radius:5px;
+	text-align:center;
+	border:2px solid black;
+	background-color:transparent;
+}
