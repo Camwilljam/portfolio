@@ -1,0 +1,134 @@
+<html>
+	
+	<Title> 
+		Newcastle Nights 
+		</title>
+	
+			<Head>
+				
+				<link rel="stylesheet" type="text/css" href="css/style.css"> 								<!--This is the css link-->
+				<link href="https://fonts.googleapis.com/css?family=Nova+Cut" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css?family=Nova+Slim" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">	
+				
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<script>
+			
+	function validateForm() 
+	{ 
+	var x=document.forms["custForm"]
+	["fName"].value; 
+	var email=document.forms["custForm"]
+	["email"].value; 
+	var atpos=email.indexOf("@");
+
+
+
+	if (x==null || x== " ") { alert (" All boxes must be filled"); return false; } 
+
+	else if (atpos== -1) { alert ("Email must contain @"); 
+	return false; }
+	}
+			
+			
+			</script>
+			
+			
+			
+			
+			
+			</head>
+			
+				<body>
+
+					
+					<div class="nav">
+						<ul>
+							<li> <a href="Newcastle Nights.html">Home</li></a>
+							<li> <a href="about_us.html">About Us</li></a>
+							<li> <a href="local_nightlife.html">Local Nightlife</li></a>
+							<li> <a href="upcoming_events.html">Upcoming Events</li></a>
+							<li> <a href="past_events.html">Past Events</li></a>
+							<li> <a class="active" href="contact_us.html">Contact Us</li></a>
+						</ul>
+					</div>
+					
+					<div class="contact_image">
+					Contact Us
+					</div>
+					
+					
+					
+					<div class="about_collum">
+					
+					<h3>Fill out the form if you have any questions and we will email you back</h3>
+					
+					<br>
+					
+					<form name="custForm" action = "submit.html" onsubmit = " return validateForm()" method = "" "font-size"> 
+					First Name:<br>
+					<input type = "text" name = "fName"><br>
+					Surname Name:<br>
+					<input type = "text" name = "fName"><br>
+					Email:<br> 
+					<input type="text" name = "email"> 
+					<br><br>
+					<input type = "submit" value = "Submit"> </form>
+
+					
+					</div>
+					
+					<div class="about_collum">
+					
+						<h4>
+							We will respond to and questions either through email, social media or telephone. Or you can submit a form and get us to respond back to you through the website
+							
+						</h4>
+					
+					</div>
+					
+					<div class="about_collum">
+					
+					<h2>
+							Email:<br>
+							newcastlenights@gmail.com<br><br>
+							
+							Phone:<br>
+							0191 8001066<br><br>
+							
+							Follow us on Facebook:<br>
+							Newcastle Nights<br><br>
+							
+							Twitter:<br>
+							@Newcastle_nights<br><br>
+					
+					
+					</h2>
+					</div>
+					
+					
+					
+					<div class="footer"> 
+					
+							Email us at newcastlenights@gmail.com<br>
+							Call us on 0191 8001066<br>
+							Copyright 2017 Newcastle Nights
+					</div>
+					
+					
+				
+				
+				
+				
+				
+				
+				
+				</body>
+
+
+
+
+
+
+
+</html>

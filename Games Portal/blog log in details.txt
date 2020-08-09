@@ -1,0 +1,10 @@
+members
+user1 password1
+user2 password2
+
+creators
+user3 password3
+user4 password3
+
+admin
+user5 password5

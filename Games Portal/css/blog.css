@@ -1,0 +1,322 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+body
+{
+	background-color:#E8E8E8;
+}
+*{
+box-sizing:border-box;
+}
+
+h1		/* this is the font for the title only*/
+{
+	 font-size:50px;
+	 color:#fd6600;
+	 padding-right:10px;
+	 font-family: 'Gugi', cursive;
+}
+h2
+{
+	font-family: 'Nova Flat', cursive;
+	font-size:2.7vw;
+	color:#fd6600;
+}
+
+h3
+{
+	font-size:2.6vw;
+	font-family: 'Martel Sans', sans-serif;
+	color:#fd6600;
+}
+p
+{
+	font-family: 'Martel Sans', sans-serif;
+	color:#0078ff;
+	
+}
+
+.blue
+{
+color:#0078ff;
+}
+
+
+.wrapperhead
+{
+	width:100%;
+	margin: 0 auto;
+	
+}
+.wrappermain
+{
+	width:100%;
+	margin: 0 auto;
+	float:left;
+	
+}
+
+.header
+{
+	height:100px;
+	border:3px solid black;
+	background-image:url("https://pre00.deviantart.net/68ec/th/pre/f/2016/364/b/2/wallpapers___red_abstract_polygons__black_bg___re__by_kaminohunter-da4f28v.png");
+	background-size:100%;
+	margin-bottom:50px;
+	
+}
+.nav
+{
+	height:50px;
+	border:3px solid black;
+	background-size:100%;
+	background-color:#ab0505;
+	
+	
+
+	
+}
+
+
+
+ul															/**this controlles the individual words of the nav bar**/
+	{
+		list-style-type:none;
+		margin:0;
+		padding:11px;
+		margin-top:-10px;
+		overflow:hidden;
+		font-size:2.3vw;	
+		text-align:center;
+		top:0;
+		text-align:center;
+		left:100;
+	}
+	
+li															/**this controlles the entire nav bar**/
+	{
+		float:left;
+		margin:auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-right: 3px solid #0078ff;
+	}
+li a														/** this controlls the links of the nav bar **/
+	{
+		display:block;
+		color:#fd6600;
+		text-decoration:none;
+		
+	}
+
+
+li a:hover, li:hover													/**this controlls the nav bar links when they are hovered on **/
+	{
+		color:#0078ff;
+		border-color:#fd6600;
+		
+		
+	}
+	
+.article
+{
+	width:49.5%;
+	overflow:auto;
+	margin-left:2px;
+	margin-bottom:2px;
+	overflow:hidden;
+	float:left;
+
+}
+.articletease
+{
+	width:49.5%;
+	height:500px;
+	overflow:hidden;
+	margin-left:2px;
+	margin-bottom:2px;
+	float:left;
+	border:3px solid black;
+
+}
+
+.myarticle		/*used only on the aricle and myuploads pages*/
+{
+	width:100%;
+	
+	margin-left:2px;
+	margin-bottom:2px;
+	overflow:auto;
+	float:left;
+	display:block;
+	margin-bottom:10px;
+
+}
+
+.loginform input[type=text]
+{
+	border-bottom: 3px solid #0078ff;
+	border-left:transparent;
+	border-top:transparent;
+	border-right:transparent;
+	background:transparent;
+	height:50px;
+	width:20%;
+	font-size:2vw;
+	box-sizing:border-box;
+	margin-bottom:15px;
+}
+
+.loginform input[type=password]
+{
+	border-bottom: 3px solid #0078ff;
+	border-left:transparent;
+	border-top:transparent;
+	border-right:transparent;
+	background:transparent;
+	height:50px;
+	width:20%;
+	font-size:2vw;
+	box-sizing:border-box;
+	margin-bottom:15px;
+}
+
+.signupform input[type=text]
+{
+	border-bottom: 3px solid #0078ff;
+	border-left:transparent;
+	border-top:transparent;
+	border-right:transparent;
+	background:transparent;
+	height:50px;
+	width:20%;
+	font-size:2vw;
+	box-sizing:border-box;
+	margin-bottom:15px;
+}
+
+.signupform input[type=password]
+{
+	border-bottom: 3px solid #0078ff;
+	border-left:transparent;
+	border-top:transparent;
+	border-right:transparent;
+	background:transparent;
+	height:50px;
+	width:20%;
+	font-size:2vw;
+	box-sizing:border-box;
+	margin-bottom:15px;
+}
+
+.uploadform input[type=text]
+{
+	border-bottom: 3px solid #0078ff;
+	border-left:transparent;
+	border-top:transparent;
+	border-right:transparent;
+	background:transparent;
+	height:50px;
+	width:50%;
+	font-size:2vw;
+	box-sizing:border-box;
+	margin-bottom:15px;
+}
+
+.uploadform input[type=date]
+{
+	border-bottom: 3px solid #0078ff;
+	border-left:transparent;
+	border-top:transparent;
+	border-right:transparent;
+	background:transparent;
+	height:50px;
+	width:20%;
+	font-size:2vw;
+	box-sizing:border-box;
+	margin-bottom:15px;
+}
+
+.uploadform textarea
+{
+	border: 3px solid #0078ff;
+	background:transparent;
+	height:200px;
+	width:100%;
+	font-size:2vw;
+	box-sizing:border-box;
+	margin-bottom:15px;
+}
+
+.deleteform input[type=text]
+{
+	border-bottom: 3px solid #0078ff;
+	border-left:transparent;
+	border-top:transparent;
+	border-right:transparent;
+	background:transparent;
+	height:50px;
+	width:10%;
+	font-size:2vw;
+	box-sizing:border-box;
+	margin-bottom:15px;
+}
+.searchform input[type=text]
+{
+	border-bottom: 3px solid #0078ff;
+	border-left:transparent;
+	border-top:transparent;
+	border-right:transparent;
+	background:transparent;
+	height:50px;
+	width:15%;
+	font-size:2vw;
+	margin-bottom:15px;
+}
+
+input[type=submit]
+{
+	border: 2px solid #fd6600;
+	padding-left:0;
+	padding-right:0;
+	padding-top:0;
+	background:transparent;
+	height:50px;
+	width:5%;
+	font-size:1.2vw;
+	margin-left:15px;
+	
+}

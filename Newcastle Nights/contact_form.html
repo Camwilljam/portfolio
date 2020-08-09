@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title> form </title>
+
+	
+	
+</head>
+
+	
+
+	
+
+<body>
+
+<script> 
+
+function validateForm() 
+{ 
+var x=document.forms["custForm"]
+["fName"].value; 
+var email=document.forms["custForm"]
+["email"].value; 
+var atpos=email.indexOf("@");
+
+
+
+if (x==null || x== " ") { alert ("First name must be filled"); return false; } 
+
+else if (atpos== -1) { alert ("Email must contain @"); 
+return false; }
+}
+</script>
+
+
+
+<form name="custForm" action = "http://www.google.co.uk" onsubmit = " return validateForm()" method = ""> 
+First Name: <input type = "test" name = "fName">
+Email: <input type="text" name = "email"> 
+ <input type = "submit" value = "Submit"> </form>
+
+
+
+
+
+ 
+
+
+
+
+</body>
+
+
+
+</html>				
